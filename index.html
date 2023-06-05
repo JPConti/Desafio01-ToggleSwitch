@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio 01 - Toggle Switcher</title>
+</head>
+<body>
+    <main>
+        <h1 style="margin-top:8rem">THEME SWITCH💡</h1>
+        <div class="container">
+                <div class="input-switcher">
+                    <img src="./assets/sun.svg" alt="Light theme">
+                    <img src="./assets/moon.svg" alt="Dark theme">
+                </div>
+                <input class="switcher" type="range" alt="" min="0" max="1" onchange="themeSwitch()">
+        </div>
+    </main>
+
+    <footer>
+        <span>Feito por <a href="https://github.com/JPConti"><span class="name">Juan Conti</span></a></span>
+    </footer>
+</body>
+<script src="./App.js"></script>
+</html>
